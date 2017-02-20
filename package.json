@@ -1,0 +1,41 @@
+{
+  "name": "h5-example",
+  "version": "0.1.0",
+  "description": "一个基于vue的简单H5例子",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vfis release -wL -d output",
+    "publish": "vfis release production -d dist",
+    "start": "vfis server start -p 1088 --root output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpreterite/h5-example.git"
+  },
+  "keywords": [
+    "vfis",
+    "fis3",
+    "example",
+    "vue"
+  ],
+  "author": "packy-tang <lpreterite@126.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lpreterite/h5-example/issues"
+  },
+  "homepage": "https://github.com/lpreterite/h5-example#readme",
+  "devDependencies": {
+    "vfis": "^1.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "lib-flexible": "^0.3.2",
+    "normalize-css": "^2.3.1",
+    "process": "^0.11.9",
+    "requirejs": "^2.3.2",
+    "imagepool": "github:lpreterite/imagepool",
+    "vue-router": "^0.7.13",
+    "vue": "^1.0.25"
+  }
+}

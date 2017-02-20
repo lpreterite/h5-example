@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="layout">
+        <h1 v-text="message"></h1>
+        <p>userInfo: <span v-text="userInfo.name"></span></p>
+        <router-view></router-view>
+    </section>
+
+    <script src="node_modules/requirejs/require.js"></script>
+    <script>
+        require(['main']);
+    </script>
+</body>
+</html>
